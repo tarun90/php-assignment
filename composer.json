@@ -1,0 +1,19 @@
+{
+  "name": "elsner/core-php-assignment",
+  "description": "Using core PHP create simple table Import HTML as CSV Excel with code comments, OOPs concept. Git branches, Responsive bootstrap for HTML and Database table in proper format.",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Controller\\": "Controller/",
+      "Core\\": "Core/",
+      "Model\\": "Model/",
+      "Inc\\": "Inc/"
+    },
+    "files": [
+      "Core/Config.php"
+    ]
+  },
+  "require": {
+    "ext-mysqli": "*"
+  }
+}

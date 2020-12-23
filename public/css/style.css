@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* General 
+--------------------------------------------------------------------------------------------------------*/
+*,*:focus{outline:none;border-radius:0;-o-border-radius:0;-ms-border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;box-shadow:none;-o-box-shadow:none;-ms-box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;}
+html,body{height:100%;font-kerning:auto;}
+body{font-size:14px;line-height:20px;font-family: 'Open Sans', sans-serif; color:#414141}
+h1,h2,h3,h4,h5,h6{line-height:1.2em;padding:0 0 20px;margin:0;}
+
+/* Header
+--------------------------------------------------------------------------------------------------------*/
+.header-title{background:#394044;color: white;text-align: center;padding-top: 14px;}
+
+/* Footer
+--------------------------------------------------------------------------------------------------------*/
+.footer{background:#394044;color: white;text-align: center}
+.footer-content{text-align:center;}
+.footer-content .copyright{font-size:13px;line-height:17px;color:#949597;padding-top:9px;}
+
+
+/* Container
+--------------------------------------------------------------------------------------------------------*/
+.alert{margin-top: 50px;}
